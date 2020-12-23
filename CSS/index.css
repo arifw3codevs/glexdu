@@ -1,0 +1,290 @@
+/* default-css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    table-layout: 0;
+   }
+
+   body{
+       font-family: 'nunito', sans-serif;
+   }
+
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Nunito:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap');
+   
+   
+   .container{
+       width: 100%;
+       margin: 0 auto;
+       padding: 0 15px;
+   }
+   .container::before,
+   .container::after {
+       content: "";
+       display: table;
+       clear: both;
+   }
+   
+   .col-25{
+       width: 25%;
+       padding: 0 15px;
+       float: left;
+   }
+   
+   .col-75{
+       width: 75%;
+       padding: 0 15px;
+       float: left;
+   }
+   
+   .col-50{
+       width: 50%;
+       text-align: center;
+   }
+   .col-50-r{
+       width: 50%;
+       float: right;
+   }
+   
+   .col-50-l{
+       width: 50%;
+       float: left;
+   }
+   
+   .col-33{
+       width: 33.33%;
+       padding: 0 15px;
+       float: left;
+   }
+
+   .col-70{
+    width: 70%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-30{
+    width: 30%;
+    padding: 0 15px;
+    float: left;
+}
+   /* default-css-end */
+   .header-top{
+       background-color: #21B167;
+       color: white;
+       font-size: 14px;
+   }
+
+   .top-l{
+       padding: 10px 45px;
+   }
+
+   .header-top i{
+    padding: 10px;
+}
+   .top-r{
+       color: white;
+       float: right;
+       padding: 10px 20px;
+   }
+
+   
+   /* header-css-start  */
+
+   header{
+       background-color: rgb(252, 249, 249);
+   }
+   
+   .logo{
+       height: 30px;
+       display: inline-block;
+       padding: 30px 40px;
+   
+   }
+   
+   .logo img{
+       height: 22px;
+   }
+   
+   .main-menu{
+       float: right;
+       padding: 30px;
+
+    }
+
+    .main-menu li{
+        list-style: none;
+        display: inline-block;
+    }
+
+    .main-menu li a{
+        text-decoration: none;
+        padding: 0 12px;
+        color: rgb(100, 98, 98);
+        font-size: 14px;
+    }
+
+    /* home-css */
+
+    .home{
+        width: 100%;
+        background-image: url(../image/slider-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .home-content{
+        padding: 200px 20px;
+    }
+
+    .home-content h2{
+        font-size: 53px;
+        color: white;
+        padding: 20px;
+
+    }
+
+    .home-content p{
+        font-size: 20px;
+        color: white;
+        padding: 20px 20px;
+
+    }
+
+    .home-content button{
+        border-radius: 32px;
+        color: white;
+        background-color: #21B167;
+        padding: 20px 35px;
+        margin: 20px 20px;
+        border: none;
+
+    }
+
+    .home-pic{
+        margin: 150px 30px 0px 0;
+        float: left;
+    }
+
+    .home-pic img{
+        height: 550px;
+
+    }
+
+    /* Catagory-css */
+
+    .catagory{
+        display: inline-block;
+        margin-top: -80px;
+    }
+
+    .catagory .col-25{
+        padding: 0;
+        
+    }
+
+    .catagory-1{
+        padding: 10px;
+        background-color: #48A7D4;
+        color: white;
+    }
+
+    .catagory-2{
+        padding: 10px;
+        background-color: #FDC735;
+        color: white;
+    }
+
+    .catagory-3{
+        padding: 10px;
+        background-color: #307AD5;
+        color: white;
+    }
+
+    .catagory-4{
+        padding: 10px;
+        background-color: #10C45C;
+        color: white;
+    }
+
+    .catagory-pic{
+        float: left;
+        padding: 40px 10px;
+        height: 200px;
+    }
+
+    .catagory-pic img{
+        width: 50px;
+        width: 50px;
+
+    }
+
+    .catagory-text{
+        margin: 20px 10px;
+    }
+
+    .catagory-text h3{
+        margin: 40px 0 0 20px;
+    }
+
+    .catagory-text p{
+        font-size: 17px;
+        margin: 10px 0;
+    }
+
+    /* about-css */
+    .about-section{
+        margin-top: 100px;
+    }
+
+    .about{
+        padding: 30px 30px;
+    }
+
+    .about button{
+        padding: 15px 30px;
+        color: white;
+        background-color: #10C45C;
+        float: left;
+        border-radius: 32px;
+        border: none;
+        font-size: 20px;
+        margin: 20px 20px;
+    }
+
+    .about h2{
+        font-size: 50px;
+        text-align: left;
+        clear: both;
+        padding: 20px;
+    }
+
+    .about span{
+        color: #10C45C;
+        font-size: 40px;
+    }
+
+    .about .p-1{
+        color: #10C45C;
+        text-align: left;
+        padding: 20px;
+
+    }
+
+    .about .p-2{
+        text-align: left;
+        padding: 20px;
+
+    }
+
+    .video{
+        background-image: url(../image/blog-3.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;height: 400px;
+        width: 100%;
+        padding: 20px 30px;
+    }
+
+   
